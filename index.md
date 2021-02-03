@@ -10,9 +10,14 @@ permalink: /
 
 <img width="60%" src = "assets/images/photo_03.jpeg">
 
+{: .text-medium }
+
 I'm a MS Computer Science student at the [DigiPen Institute of Technology](https://www.digipen.edu). 
 My current focus areas are AI in Video Games and Game Engine Development.I went to [PES University](https://www.pes.edu/) for my bachelors in Computer Science.
 
-I currently Intern at [Roland](https://www.roland.com/us/) as a Software Engineer on the Roland Editor Team.
+{: .text-medium }
+I currently Intern at [Roland](https://www.roland.com/us/) where I'm helping build an editor to manage all the Roland Synths - Primarily JUPITER-X.
 
-Previously I used to work at [Danske Bank](https://danskebank.com/) as Software Engineer where I built a continuous deployment framework for the machine learning models at the bank.
+{: .text-medium }
+Previously I used to work at [Danske Bank](https://danskebank.com/) as Software Engineer where I built a continuous deployment framework from the ground up for the machine learning models at the bank.
+

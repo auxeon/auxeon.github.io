@@ -394,6 +394,10 @@ h6, .text-zeta { font-size: 11px !important; color: #44434d; }
 
 .text-right { text-align: right !important; }
 
+.text-medium { font-size: 12px !important; }
+
+@media (min-width: 31.25rem) { .text-medium { font-size: 14px !important; } }
+
 .label, .label-blue { display: inline-block; padding-top: 0.16em; padding-right: 0.56em; padding-bottom: 0.16em; padding-left: 0.56em; margin-right: 0.5rem; margin-left: 0.5rem; color: #fff; text-transform: uppercase; vertical-align: middle; background-color: #2869e6; font-size: 11px !important; border-radius: 12px; }
 
 @media (min-width: 31.25rem) { .label, .label-blue { font-size: 12px !important; } }
@@ -582,7 +586,7 @@ tbody tr:last-of-type td { padding-bottom: 0.75rem; }
 
 thead th { border-bottom: 1px solid #44434d; }
 
-code { padding: 0.2em 0.15em; font-weight: 400; background-color: #302d36; border: 1px solid #44434d; border-radius: 4px; }
+code { font-weight: 400; background-color: #302d36; border: 1px solid #44434d; border-radius: 4px; }
 
 a:visited code { border-color: #44434d; }
 
