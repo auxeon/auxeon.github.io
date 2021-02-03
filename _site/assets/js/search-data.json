@@ -2,37 +2,37 @@
     "doc": "Blog",
     "title": "Blog",
     "content": "# Blog ",
-    "url": "/docs/blog/",
+    "url": "https://abhikalpunakal.com/docs/blog/",
     "relUrl": "/docs/blog/"
   },"1": {
     "doc": "About",
     "title": "About",
     "content": "> I love building well designed experiences and working on Video Games AI and Audio. {: .text-medium } I'm a MS Computer Science student at the [DigiPen Institute of Technology](https://www.digipen.edu). My current focus areas are AI in Video Games and Game Engine Development.I went to [PES University](https://www.pes.edu/) for my bachelors in Computer Science. {: .text-medium } I currently Intern at [Roland](https://www.roland.com/us/) where I'm helping build an editor to manage all the Roland Synths - Primarily JUPITER-X. {: .text-medium } Previously I used to work at [Danske Bank](https://danskebank.com/) as Software Engineer where I built a continuous deployment framework from the ground up for the machine learning models at the bank. ",
-    "url": "/",
+    "url": "https://abhikalpunakal.com/",
     "relUrl": "/"
   },"2": {
     "doc": "Init",
     "title": "Init",
     "content": "# First Post {: .no_toc } I gotta admit ! I'm growing evermore fond of Markdown in recent times. Ever since my Summer 2020 semester I use it to take notes and I even give all my CS exams in markdown and render down to pdf or html before i submit. Well I think sometime last month my hosting expired and with it came the question of did I even want to renew my subscription. And Now since I needed to get a personal website done I decided to take the plunge and setup this entire website anew using the power of static sites and jekyll ! Wonder why I messed around with a hosting solution. shout out to [Patrick Marssceil](https://github.com/pmarsceill). setting up this personal website has been an interesting challenge and I learnt quite a few things ",
-    "url": "/docs/blog/init/",
+    "url": "https://abhikalpunakal.com/docs/blog/init/",
     "relUrl": "/docs/blog/init/"
   },"3": {
     "doc": "Jump Table",
     "title": "Jump Table",
     "content": "Here's a cool hack I came up with in ```C99``` to create a conditional jump table. ```c // m - total condition states // reduction from O(2^m) -> O(m) ops // jumptables are faster as there is no branching // added benefit of ordinally-non-sequential answers unsigned int conditions[] = { 1, // C1 0, // C2 1 // C3 }; int answers[] = {1, 6, 5, 7, 9, 3, 6, 8}; int jump_table(){ unsigned int conditional = 0; unsigned int n = sizeof(conditions)/sizeof(conditions[0]); for(unsigned int i=0;i<n;++i){ conditional += 1 << i*conditions[i] : 0; } return answers[conditional]; } ``` ",
-    "url": "/docs/blog/jumptable/",
+    "url": "https://abhikalpunakal.com/docs/blog/jumptable/",
     "relUrl": "/docs/blog/jumptable/"
   },"4": {
     "doc": "Music",
     "title": "Music",
     "content": "# Music Here is some of my Original Audio work including a few covers. 1. Abhikalp · Echoes 2. Abhikalp · Dreams 3. Five Finger Death Punch Abhikalp · Five Finger Death Punch - Wrong side of heaven 4. Kaun Tujhe - Piano Cover Abhikalp · Kaun Tujhe - Piano Cover 5. Ghost in the shell X Speed Abhikalp · Ghost in the shell X Speed 6. Steps Abhikalp · Steps 7. Windows XP - Shutdown Abhikalp · Windows XP - Shutdown 8. So Far - Olafur Arnalds [Cover] Abhikalp · So Far - Olafur Arnalds [Cover] 9. All Of Me - John Legend | Cover | Piano and Vocals Abhikalp · All Of Me - John Legend | Cover | Piano and Vocals 10. The Rest of my life - The Amazing Spiderman 2 | Hans Zimmer | Cover Abhikalp · The Rest of my life - The Amazing Spiderman 2 | Hans Zimmer | Cover ",
-    "url": "/docs/music/",
+    "url": "https://abhikalpunakal.com/docs/music/",
     "relUrl": "/docs/music/"
   },"5": {
     "doc": "Projects",
     "title": "Projects",
     "content": "# Projects {: .no_toc } ## Katana - Utility AI for football 2D [[code]](https://github.com/auxeon/katana-utility-ai) [[paper]](https://github.com/auxeon/katana-utility-ai/blob/main/KatanaResearchPaper.pdf) The primary objective of this research paper is to implement a utility-based AI that can play football, run simulations and be able to discern how changing the objective functions, and the utility parameters can tweak the player behaviors. The second objective of this project is to explore utility functions in the context of a game of football and how they can control player characteristics. A third nuanced yet more practical objective is to demonstrate a novel solution I came up with that lets you exploit preexisting behavior trees and still be able to have all the power of utility AI’s without spending upwards of 75USD that some plugins charge you. --- ## Burden - 2D puzzle solving platformer - Global Game Jam 2021 [[GGJ submission]](https://globalgamejam.org/2021/games/burden-4) ![Burden Menu](/files/burden_menu.jpg) ![[Burden Level 01]](/files/burden_level01.jpg) This was a fun little project i built with two of my friends [Xingyu Wang](https://github.com/cjmms) and [Gerald Lee](https://github.com/gerald-lee) here at [DigiPen Institute of Technology](https://www.digipen.edu). The Game Idea was to build a 2D platformer with a puzzle solving mechaninc. only the small lightweight purple player ```Blip``` can jump around - but here's the catch he can't do it himself either he needs the help of heavyweight ```Bop``` to clear longer distance. The key mechanic is that both players can instantly swap places at time. However you'll still be controlling a single player at a time. This was a fun project that took us little under a day to build and design. --- ## Atom - 2D Game Engine - with ECS [[code]](https://github.com/auxeon/Atom) ![Atom Engine](/files/ae_rectangles.jpg) This is a 2D Game Engine I am currently working with an ECS emplementation to drive its core. Will blog about it as I keep making progress. Right now it can render upto 1200 entities without significant frame drops. Next step is to Implement the Audio Manager and Level Loader followed by tools to help with debugging. Once the core engine and gameplay features are implemented the next target is to multi thread this engine. --- ",
-    "url": "/docs/projects/",
+    "url": "https://abhikalpunakal.com/docs/projects/",
     "relUrl": "/docs/projects/"
   }
 }
