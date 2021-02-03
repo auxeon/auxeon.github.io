@@ -45,5 +45,3 @@ This was a fun project that took us little under a day to build and design.
 This is a 2D Game Engine I am currently working with an ECS emplementation to drive its core. Will blog about it as I keep making progress. Right now it can render upto 1200 entities without significant frame drops. Next step is to Implement the Audio Manager and Level Loader followed by tools to help with debugging.
 
 Once the core engine and gameplay features are implemented the next target is to multi thread this engine.
-
---- 
