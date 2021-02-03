@@ -1,0 +1,32 @@
+{"0": {
+    "doc": "First Post",
+    "title": "First Post",
+    "content": "# First Post {: .no_toc } ",
+    "url": "/docs/Blog/2021-02-02-First-Post/",
+    "relUrl": "/docs/Blog/2021-02-02-First-Post/"
+  },"1": {
+    "doc": "Music",
+    "title": "Music",
+    "content": "# Music Here is some of my Original Audio work including a few covers. 1. Abhikalp · Echoes 2. Abhikalp · Dreams 3. Abhikalp · Five Finger Death Punch - Wrong side of heaven 4. Abhikalp · Kaun Tujhe - Piano Cover 5. Abhikalp · Ghost in the shell X Speed 6. Abhikalp · Steps 7. Abhikalp · Windows XP - Shutdown 8. Abhikalp · So Far - Olafur Arnalds [Cover] 9. Abhikalp · All Of Me - John Legend | Cover | Piano and Vocals 10. Abhikalp · The Rest of my life - The Amazing Spiderman 2 | Hans Zimmer | Cover ",
+    "url": "/docs/Music/",
+    "relUrl": "/docs/Music/"
+  },"2": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": "# Projects {: .no_toc } ",
+    "url": "/docs/Projects/",
+    "relUrl": "/docs/Projects/"
+  },"3": {
+    "doc": "About",
+    "title": "About",
+    "content": "> I love building well designed experiences and working on Video Games AI and Audio. I'm a MS Computer Science student at the [DigiPen Institute of Technology](https://www.digipen.edu). My current focus areas are AI in Video Games and Game Engine Development.I went to [PES University](https://www.pes.edu/) for my bachelors in Computer Science. I currently Intern at [Roland](https://www.roland.com/us/) as a Software Engineer on the Roland Editor Team. Previously I used to work at [Danske Bank](https://danskebank.com/) as Software Engineer where I built a continuous deployment framework for the machine learning models at the bank. ",
+    "url": "/",
+    "relUrl": "/"
+  },"4": {
+    "doc": "Blog",
+    "title": "Blog",
+    "content": "# Blog ",
+    "url": "/docs/Blog/",
+    "relUrl": "/docs/Blog/"
+  }
+}
