@@ -51,6 +51,6 @@ Once the core engine and gameplay features are implemented the next target is to
 ## ATOM - 2D - TEST SUPERAWESOME GAME ENGINE
 [[code]](https://github.com/auxeon/Atom)
 
-![Atom Engine](//files/ae_rectangles.jpg)
+![Atom Engine](/files/atom_01.jpg)
 
 Test to see if pages updates this without a jekyll build
