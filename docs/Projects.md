@@ -40,17 +40,10 @@ This was a fun project that took us little under a day to build and design.
 ## Atom - 2D Game Engine - with ECS
 [[code]](https://github.com/auxeon/Atom)
 
-![Atom Engine](/files/ae_rectangles.jpg)
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/qDjw00-M0QI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is a 2D Game Engine I am currently working with an ECS emplementation to drive its core. Will blog about it as I keep making progress. Right now it can render upto 1200 entities without significant frame drops. Next step is to Implement the Audio Manager and Level Loader followed by tools to help with debugging.
 
-Once the core engine and gameplay features are implemented the next target is to multi thread this engine.
+The Engine Supports Level Serialization, 3D Audio, AABB Physics and On screen controls via IMGUI. It also has support to play back audio on multiple channels.
 
----
 
-## ATOM - 2D - TEST SUPERAWESOME GAME ENGINE
-[[code]](https://github.com/auxeon/Atom)
-
-![Atom Engine](/files/atom_01.jpg)
-
-Test to see if pages updates this without a jekyll build
