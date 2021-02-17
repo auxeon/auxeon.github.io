@@ -12,8 +12,8 @@ permalink: /
 
 {: .text-medium }
 
-I'm a MS Computer Science student at the [DigiPen Institute of Technology](https://www.digipen.edu). 
-My current focus areas are AI in Video Games and Game Engine Development.I went to [PES University](https://www.pes.edu/) for my bachelors in Computer Science.
+I'm a MS Computer Science student at [DigiPen Institute of Technology](https://www.digipen.edu). 
+My current focus areas are AI in Video Games and Game Engine Development - This involves a lot of C++, Additionally I'm also learning Digital Signal Processing - Which is very math heavy and right now i'm working on a project to build a Reverb filter.I went to [PES University](https://www.pes.edu/) for my bachelors in Computer Science.
 
 {: .text-medium }
 I currently Intern at [Roland](https://www.roland.com/us/) where I'm helping build an editor to manage all the Roland Synths - Primarily JUPITER-X.
