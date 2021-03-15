@@ -1,0 +1,51 @@
+I"�<h1 class="no_toc" id="projects">Projects</h1>
+
+<h2 id="katana---utility-ai-for-football-2d">Katana - Utility AI for football 2D</h2>
+<p><a href="https://github.com/auxeon/katana-utility-ai">[code]</a> <a href="https://github.com/auxeon/katana-utility-ai/blob/main/KatanaResearchPaper.pdf">[paper]</a></p>
+
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/rBCwW9KNq9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>The primary objective of this research paper is to implement a utility-based AI that can play football, run simulations and be able to discern how changing the objective functions, and the utility parameters can tweak the player behaviors.</p>
+
+<p>The second objective of this project is to explore utility functions in the context of a game of football and how they can control player characteristics.</p>
+
+<p>A third nuanced yet more practical objective is to demonstrate a novel solution I came up with that lets you exploit preexisting behavior trees and still be able to have all the power of utility AI’s without spending upwards of 75USD that some plugins charge you.</p>
+
+<hr />
+
+<h2 id="burden---2d-puzzle-solving-platformer---global-game-jam-2021">Burden - 2D puzzle solving platformer - Global Game Jam 2021</h2>
+<p><a href="https://globalgamejam.org/2021/games/burden-4">[GGJ submission]</a></p>
+
+<p><img src="/files/burden_menu.jpg" alt="Burden Menu" /> <img src="/files/burden_level01.jpg" alt="[Burden Level 01]" /></p>
+
+<p>This was a fun little project i built with two of my friends <a href="https://github.com/cjmms">Xingyu Wang</a> and <a href="https://github.com/gerald-lee">Gerald Lee</a> here at <a href="https://www.digipen.edu">DigiPen Institute of Technology</a>.
+The Game Idea was to build a 2D platformer with a puzzle solving mechaninc.</p>
+
+<p>only the small lightweight purple player <code class="language-plaintext highlighter-rouge">Blip</code> can jump around - but here’s the catch he can’t do it himself either 
+he needs the help of heavyweight <code class="language-plaintext highlighter-rouge">Bop</code> to clear longer distance.</p>
+
+<p>The key mechanic is that both players can instantly swap places at time. However you’ll still be controlling a single player at a time.</p>
+
+<p>This was a fun project that took us little under a day to build and design.</p>
+
+<hr />
+
+<h2 id="atom---custom-2d-game-engine-ecs---c">Atom - Custom 2D Game Engine (ECS) - C++</h2>
+<p><a href="https://github.com/auxeon/Atom">[code]</a></p>
+
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/qDjw00-M0QI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Atom is a 2D Game Engine I am currently working with an ECS emplementation to drive its core. Will blog about it as I keep making progress. Right now it can render upto 1200 entities without significant frame drops. Next step is to Implement the Audio Manager and Level Loader followed by tools to help with debugging.</p>
+
+<p>The Engine Supports Level Serialization, 3D Audio, AABB Physics and On screen controls via IMGUI. It also has support to play back audio on multiple channels.</p>
+
+<hr />
+
+<h2 id="ml---linear-regression-to-predit-housing-prices">ML - Linear Regression to predit housing prices</h2>
+<p><a href="https://github.com/auxeon/MachineLearning/blob/main/P1_Linear_Regression/AbhikalpUnakal_P1_LinearRegression.ipynb">[code]</a></p>
+
+<iframe width="100%" src="https://github.com/auxeon/MachineLearning/blob/main/P1_Linear_Regression/AbhikalpUnakal_P1_LinearRegression.ipynb">&lt;/frame&gt;
+
+
+</iframe>
+:ET
