@@ -8,7 +8,8 @@ permalink: /
 
 > I love building well designed experiences and working on Video Games AI and Audio.
 
-<img width="60%" src = "assets/images/photo_03.jpeg">
+<meta name="description" content="Abhikalp Unakal's Personal Webite">
+<img width="60%" src = "assets/images/photo_03.jpeg" alt="Abhikalp Unakal">
 
 {: .text-medium }
 
