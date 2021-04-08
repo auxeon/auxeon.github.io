@@ -51,7 +51,8 @@ The Engine Supports Level Serialization, 3D Audio, AABB Physics and On screen co
 ## DSP - Moorer Reverb Filter - Research Paper Implementation
 [[code]](https://github.com/auxeon/MoorerReverb) [[paper]](https://azrael.digipen.edu/MAT321/Moorer.pdf)
 
-![Reverb](/files/reverb_01.png)
+![Reverb WAV](/files/reverb_01.png)
+![Reverb VST](/files/reverb_02.png)
 
 This was a very fun project that I worked on for a DSP course that i'm currently taking in spring 2021 - The task was to implement a Reverb filter. 
 
