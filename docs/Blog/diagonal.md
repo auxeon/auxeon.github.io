@@ -129,7 +129,7 @@ c = 5   depends on the number of cols
 
 
 Now that we understand what's occuring let's buld the code i'm going to use C
-```cplusplus
+```c
 // let n_rows : number of rows (6) here
 // let n_cols : number of cols (6) here
 
@@ -149,9 +149,7 @@ int main(int argc, char** argv){
 
     int n_rows = 6;
     int n_cols = 6;
-
-    int n_diagonal_count;
-
+    
     int x=0,y=0,c=0;
 
     for(c = -(n_rows-1); c <= (n_cols-1); ++c){
