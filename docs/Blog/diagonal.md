@@ -129,7 +129,7 @@ c = 5   depends on the number of cols
 
 
 Now that we understand what's occuring let's buld the code i'm going to use C
-```C
+```cplusplus
 // let n_rows : number of rows (6) here
 // let n_cols : number of cols (6) here
 
