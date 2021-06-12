@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DiagonAlley
+title: Diagonally
 parent: Blog
 ---
 
@@ -41,6 +41,8 @@ traversals of any kind in a 2D grid structure like this essentially boils down t
 
 [Tl:DR convert diagonal to straight line by shearing + simplify diagonal traversal]
 
+
+## Math
 
 
 for clarity I will leave out the a and just use numbers.
@@ -122,8 +124,11 @@ c = 5   depends on the number of cols
 
 
 ```
-Now that we understand what's occuring let's buld the code i'm going to use C
 
+## Code
+
+
+Now that we understand what's occuring let's buld the code i'm going to use C
 ```C
 // let n_rows : number of rows (6) here
 // let n_cols : number of cols (6) here
@@ -167,11 +172,9 @@ int main(int argc, char** argv){
     return 0;
 }
 
-
-
-
 ```
-[Here's some brain storming ideas]
+
+## Some brainstorming
 
 so this really simplifed the diagonal traversal 
 our next step is to think what if the matrix is not 6x6
@@ -180,9 +183,6 @@ what is if is 10000x1000 and your machine can only fit 10x10 into memory
 
 
 let's see how we can optmize this further : basic idea is to start streaming the data in chunk that you need and then discard them 
-
-
-```
 consider the following grid 6x5 i'm picking arbitrarily
 now each of the boxes correspond to a 3x3 region in memory 
 
@@ -190,6 +190,8 @@ so that is total of 6*3*5*3 = 270 elements in total
 lets's say my budget allows me to only store 9 elements at a time and space for a small number of constant variables to keep track of state let's number the grid
 
 [full data grid that needs to be made into chunks]
+
+```
 
 ---.---.---.---.---.
 |15|20 |24 |27 |29 |
@@ -204,10 +206,10 @@ lets's say my budget allows me to only store 9 elements at a time and space for 
 ---.---.---.---.---.
 |0 |2  | 5 | 9 |14 |
 ---.---.---.---.---.
-
+```
 
 so if you want to diagonally traverse the 270 elements - we would need to diagonall traverse all the 30 chunks as well
-
+```
 
 [a single chunk]
 .---.---.---.
@@ -217,7 +219,7 @@ so if you want to diagonally traverse the 270 elements - we would need to diagon
 .---.---.---.
 | a | b | c |
 .---.---.---.
-
+```
 so the traversal fashion will be hierarchical
 
 
@@ -227,6 +229,7 @@ here's a very neat way to do diagonal traversal and maximize cache hits
 
 this would take O((n_rows + n_cols) * n_rows) space
 
+```
         .---.---.---.
   *   * | g | h | i |
     .---.---.---.---.
@@ -235,9 +238,9 @@ this would take O((n_rows + n_cols) * n_rows) space
 | a | b | c | $   $
 .---.---.---.
 
-
 * are empty spots with some illegal value
 $ are possible values from future chunks
+
 
 let this be your new matrix - just traverse each column top to bottom - it is better to vertically flip the matrix as well to maximize leagal hits
 
@@ -276,9 +279,9 @@ coming back to the grid
 diagonal_ids[] = [diag for d in range(-(n_rows-1),(n_cols-1))]
 
 each one of the chunks can be separately processed based on the diagonal ID's
+```
 
-
-
+```
 Some sketch of a pseudo code
 
 1. use the shearing mechanism to increase cache hits
@@ -294,13 +297,10 @@ Some sketch of a pseudo code
 
 4. launch separate threads and have them process the columns 
 
-
-
-key idea is
-    1. calculate diagonal indices in a simple manner
-    2. shear data
-    3. shearing converts problem to sequential access
-    4. sequential access == cache is happy
-
-
 ```
+
+## Summary
+1. calculate diagonal indices in a simple manner
+2. shear data
+3. shearing converts problem to sequential access
+4. sequential access == cache is happy
