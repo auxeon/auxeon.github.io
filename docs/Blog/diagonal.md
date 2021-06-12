@@ -1,4 +1,11 @@
+---
+layout: default
+title: DiagonAlley
+parent: Blog
+---
+
 # Diagonally Traversing an Array 
+{: .no_toc }
 
 Consider the array
 
