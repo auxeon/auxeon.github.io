@@ -22,5 +22,5 @@ I currently work at [Facbook Reality Labs](https://tech.fb.com/ar-vr/) where I h
 
 {: .text-medium }
 
-I currently Intern at [Roland](https://www.roland.com/us/) where I'm helping build an editor to manage all the Roland Synths - Primarily JUPITER-X.
-
+I previously Interned at [Roland](https://www.roland.com/us/) where I built an editor to manage all the Roland Synths - Primarily JUPITER-X.
+Here'e the product we shipped [JUPITER X EDITOR](https://www.roland.com/us/products/rc_jupiter-x_editor/)
