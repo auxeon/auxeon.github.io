@@ -1,2 +1,2 @@
 # Abhikalp Unakal
-Peronal Website - ©Abhikalp Unakal
+Personal Website - ©Abhikalp Unakal
